@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="MM.css">
+<style>
+    h1{
+        text-align: center;
+        position:fixed;
+        font-size: 250%;
+        font-weight: bold;
+        font-family: Impact;
+        margin:auto;
+        padding: 10px;
+        border-radius: 3px;
+        background-color: rgb(130, 148, 142);
+        animation-duration: 0.3s;
+
+    }
+    h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        font-size: 150%;
+        position: absolute;
+        font-weight: bold;
+        animation-name: example;
+        animation-duration: 3s;  
+        animation-fill-mode: forwards;
+        color:rgb(39, 172, 165);
+    }
+
+    @keyframes example {
+        from {top: 100px;}
+        to {top: 400px; opacity: 0.8;}
+    }
+    ul {
+        position:relative;
+        list-style-type: none;
+        top: 0;
+        overflow: hidden;
+        background-color: rgb(43, 41, 38);
+    }
+
+    li {
+        float:left;
+    }
+
+    li a {
+        position: relative;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: rgb(75, 7, 7);
+        transition-duration: 0.5s;
+        transition:ease-in;
+    }
+    
+</style>
+</head>
+<body>
+
+<div class="navbar"></div>
+
+<h2>TOTEU<br>
+    Salut! Bine ai venit pe pagina noastră de contact! Daca ai nevoie de ajutorul nostru 
+    în ceea ce privește fotografiatul unor evenimente sau orice fel de fotografie, nu ezita să ne contactezi.
+</h2>
+<div class="dropdown">
+    <span>Home</span>
+    <div class="dropdown-content">
+      <ul>
+        <li><a href=""> Home</a></li>
+        <li><a href=""> cn</a></li>
+        <li><a href=""> serios</a></li>
+    </ul>
+    </div>
+  
+</div>
+</body>
+</html>

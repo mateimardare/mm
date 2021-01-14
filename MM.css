@@ -1,0 +1,42 @@
+.ylye {
+    position: absolute;
+}
+
+.titlu {
+    position: relative;
+}
+.poza {
+    position: absolute;
+    height: 512px;
+    filter: blur(0.5px);
+}
+
+.bg1{
+    background-image: url("poze/fundal3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: blur(0px);
+    height: 1040px;
+    left:0;
+    top:0;
+}
+.dropdown{
+    position: relative;
+    display:inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: brown;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding:12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    color:rgb(61, 59, 59);
+}
+body{
+    background-image: url("poze/fundal3.jpg");
+}

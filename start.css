@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+}
+.menuside1{
+    padding:300px;
+    display: flex;
+    font-size: 300%;
+    font-weight: bold;
+    max-width: 200px;
+    color: rgb(105, 119, 117);
+    text-decoration: none;
+    position: absolute;
+    opacity: 0.8;
+
+}
+.menuside1:hover{
+    display: flex;
+    transition: 200ms ease-in-out;
+    margin-top:0px;
+    margin-left:0px;
+    padding:330px;
+    background-color: rgba(128, 128, 128, 0.329);
+    opacity:1;
+    padding-bottom: auto;
+    text-decoration: none;
+    max-height: fit-content;
+    color: rgb(105, 119, 117);
+}
+.menuside2{
+    padding:300px;
+    display: flex;
+    font-size: 300%;
+    font-weight: bold;
+    max-width: 200px;
+    color: rgb(105, 119, 117);
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    opacity: 0.8;
+}
+.menuside2:hover{
+    display: flex;
+    transition: 200ms ease-in-out;
+    margin-top:0px;
+    margin-left:0px;
+    padding:330px;
+    color: rgb(105, 119, 117);
+    background-color: rgba(128, 128, 128, 0.329);
+    padding-bottom: auto;
+    text-decoration: none;
+    opacity: 1;
+}
+body::-webkit-scrollbar{
+    width:0.4rem;
+}
+body::-webkit-scrollbar-track{
+  background-color: rgb(92, 75, 75);
+}
+body::-webkit-scrollbar-thumb{
+background-color: cadetblue;
+}
+.navbar{
+    margin-top: 0;
+    position:fixed;
+    height:5rem;
+    width:100%;
+}
+.navbar-nav{
+    opacity:0.7;
+    margin-top: 0;
+    height:2rem;
+    width:100%;
+    position:fixed;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    transition: height 400ms ease;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar-nav:hover{
+    background-color:  rgba(92, 75, 75, 0);
+    height: 5rem; opacity:1;
+}
+.navitem1{
+    opacity:0.7;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navitem1:hover{
+    opacity: 1;
+    color: cadetblue; 
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navitem2{
+    opacity:0.7;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navitem2:hover{
+    opacity: 1;
+    color: cadetblue; 
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}

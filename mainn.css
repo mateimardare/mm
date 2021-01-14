@@ -1,0 +1,105 @@
+*{
+  margin:0;
+  padding:0;
+}
+.bg{
+    /* The image used */
+  background-image: url("poze/fundal3.jpg");
+
+  /* Add the blur effect */
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+
+  /* Full height */
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text{
+  font-size: 120%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-left: 8rem;
+  padding:1rem;
+}
+body::-webkit-scrollbar{
+  width:0.4rem;
+}
+body::-webkit-scrollbar-track{
+  background-color: rgb(92, 75, 75);
+}
+body::-webkit-scrollbar-thumb{
+  background-color: cadetblue;
+}
+.navbar{
+  margin-top: 0;
+  position:fixed;
+  height:5rem;
+  width:100%;
+}
+.navbar-nav{
+  opacity:0.7;
+  margin-top: 0rem;
+  height:2rem;
+  width:100%;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  transition: height 400ms ease;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar-nav:hover{
+  background-color:  rgba(100, 80, 80, 0);
+  height: 5rem; opacity:1;
+}
+.navitem2{
+  opacity:0.7;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navitem2:hover{
+  opacity: 1;
+  color: rgb(201, 92, 41); 
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.bg2{
+  position: fixed;
+  margin-top: 1000px;
+}
+.text{
+  text-align: center;
+  margin-top:0;
+  color: rgb(194, 58, 34);
+  font-size: 300%;
+}
+.text2{
+  display:block;
+  margin-left: 50%;
+  max-width: 40%;
+  color: rgb(194, 58, 34);
+  font-size: 150%;
+  transition: opacity 1s ;
+  opacity:1;
+}
+.imaj{
+  padding: 0;
+  margin-top: 2rem;
+  display: block;
+  width: 35%;
+  filter: blur(0.6px);
+  -webkit-filter: blur(0px);
+  margin-left:10%;
+  position: relative;
+  z-index: -1;
+}
